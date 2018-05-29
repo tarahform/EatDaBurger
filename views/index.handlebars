@@ -1,5 +1,5 @@
 <div class="row">
-  <div class="col-md-4 text-center" id="notDevoured">
+  <div class="col-md-4" id="notDevoured">
     <ul>
       {{#each burgers}} {{#unless this.devoured}}
       <li>
@@ -20,7 +20,7 @@
       <button class="btn btn-info" type="submit">Save Burger!</button>
     </form>
   </div>
-  <div class="col-md-4 text-center" id="devoured">
+  <div class="col-md-4" id="devoured">
 
     <ul>
       {{#each burgers}} {{#if this.devoured}}
