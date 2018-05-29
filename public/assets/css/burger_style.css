@@ -8,6 +8,7 @@ body {
 
 div.transbox {
     margin: 2%;
+    padding: 30px;
     background-color: rgba(123,189,225,0.6);
     height: 90vh;
 }
@@ -18,6 +19,14 @@ div.transbox h2, h3, p {
 
 div.transbox h1 {
     color: red;
+}
+
+#devoured, #notDevoured {
+    text-align: left;
+}
+
+.devourbtn {
+    float: right;
 }
 
 ul {
